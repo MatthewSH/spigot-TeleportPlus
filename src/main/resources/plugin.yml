@@ -1,0 +1,19 @@
+name: ${name}
+version: ${version}
+description: ${description}
+author: ${author}
+website: ${url}
+main: ${mainClass}
+depend: ${dependencies}
+commands:
+  teleport:
+    aliases:
+      - tp
+    description: Teleport
+permissions:
+  teleportplus.teleport:
+    description: Generic teleport.
+    default: op
+  teleportplus.teleportall:
+    description: Teleport all users.
+    default: op
